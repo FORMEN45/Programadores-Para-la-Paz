@@ -1,0 +1,11 @@
+José Anthony Bonilla Guazá
+
+Algoritmo para compartir información confiable en internet:
+
+1. Identificar el tema, artículo o noticia específica que se desea compartir.
+2. Buscar la información original en motores de búsqueda para rastrear de dónde proviene.
+3. Revisar la autoridad y confiabilidad de la fuente (verificar quién es el autor, si el medio es reconocido y la fecha de publicación).
+4. Contrastar y confirmar la noticia buscando el mismo tema en al menos dos fuentes adicionales confiables o en portales de verificación de datos (fact-checking).
+5. Leer el contenido completo de la publicación original para asegurarse de que el titular no sea engañoso, descontextualizado o sensacionalista (clickbait).
+6. Redactar un mensaje propio claro, objetivo y que resuma el contexto real de la información.
+7. Compartir la información en la red social o plataforma elegida, adjuntando siempre el enlace directo a la fuente original verificada.
