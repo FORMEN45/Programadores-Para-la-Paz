@@ -1,0 +1,4 @@
+Al probar las rutas en el navegador ocurre lo siguiente:
+1. http://localhost:3000 -> El servidor responde con el texto plano 'Servidor activo', confirmando la conexión base.
+2. http://localhost:3000/saludo -> Responde con el mensaje predefinido 'Hola comunidad'.
+3. http://localhost:3000/mensaje/juan -> Utiliza un parámetro dinámico en la URL y extrae el nombre ingresado, respondiendo 'Hola juan'. Si se cambia por otro nombre, el saludo se adapta dinámicamente.
