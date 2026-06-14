@@ -1,0 +1,11 @@
+prueba-api
+
+Al enviar una petición HTTP de tipo POST a la dirección http://localhost:3000/registro con un cuerpo JSON que contiene un nombre y un mensaje, el servidor responde exitosamente devolviendo un estado HTTP 200 OK. 
+
+La respuesta que devuelve el servidor está estructurada en formato JSON e incluye de vuelta los datos que el cliente envió originalmente junto con una confirmación:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
