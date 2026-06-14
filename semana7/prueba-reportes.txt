@@ -1,0 +1,16 @@
+prueba-reportes
+
+¿Qué sucede cuando consultas los reportes mediante GET /reportes?
+
+Al realizar una petición HTTP GET a la ruta http://localhost:3000/reportes después de haber enviado datos con la ruta POST, el servidor responde devolviendo un arreglo (array) en formato JSON que contiene todos los objetos de reporte que se han guardado en la memoria global. Cada objeto incluye automáticamente un identificador único numérico incremental (id), su tipo y su respectiva descripción técnica.
+
+Ejemplo de respuesta esperada:
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
+
+Nota: Si el servidor se apaga y se vuelve a encender, al consultar la ruta GET la lista aparecerá vacía ([]), ya que los datos se almacenan temporalmente en la memoria RAM y no en una base de datos persistente.
