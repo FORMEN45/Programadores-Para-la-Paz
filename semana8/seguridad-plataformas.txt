@@ -1,0 +1,7 @@
+seguridad-plataformas
+
+1. No exponer datos personales: Restringir la visibilidad pública de información sensible de los usuarios (como cédulas, teléfonos o correos) implementando capas de encriptación y control de acceso.
+2. Proteger credenciales: Utilizar contraseñas robustas y únicas combinadas con políticas de almacenamiento seguro que impidan su exposición directa en código fuente o repositorios públicos.
+3. Usar conexiones seguras: Implementar certificados SSL/TLS (HTTPS) obligatorios en el servidor para que todo el tráfico de datos viaje cifrado entre los ciudadanos y la plataforma web.
+4. Registrar accesos de forma estricta: Configurar logs automatizados que auditen quién ingresa al servidor o base de datos, facilitando la detección temprana de intrusos o comportamientos inusuales.
+5. Limitar acceso a información sensible: Aplicar el principio del menor privilegio posible, garantizando que los colaboradores solo puedan modificar o leer los módulos estrictamente necesarios para sus roles comunitarios.
