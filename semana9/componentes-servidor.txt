@@ -1,0 +1,16 @@
+componentes-servidor
+
+Sistema operativo:
+Es el software principal que administra directamente los recursos de hardware del computador. Se encarga de asignar la memoria, gestionar los protocolos de red y proveer el entorno base para que corran servicios de desarrollo.
+
+Node.js:
+Es el entorno de ejecución backend que nos permite correr JavaScript en el lado del servidor. Funciona mediante un modelo de operaciones asíncronas no bloqueantes, ideal para construir aplicaciones web rápidas y escalables.
+
+Aplicación server.js:
+Es nuestro archivo de lógica central que usa el framework Express. Define el comportamiento de la API comunitaria, controlando cómo va a responder el sistema ante las diferentes URLs o solicitudes de los usuarios.
+
+Puerto:
+Es un identificador numérico lógico dentro de la red del sistema operativo. Actúa como un canal exclusivo (en este caso el 3000) para desviar las peticiones externas directamente a nuestra aplicación sin chocar con otros programas.
+
+Logs:
+Son archivos de texto o registros cronológicos donde el servidor apunta automáticamente todo lo que pasa. Guardan accesos, solicitudes exitosas o fallos críticos, siendo indispensables para monitorear la salud y estabilidad de la plataforma.

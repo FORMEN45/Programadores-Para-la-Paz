@@ -1,0 +1,17 @@
+ejecucion-servidor
+
+¿Qué ocurre cuando ejecutas node server.js?
+Al ejecutar este comando, el entorno de ejecución Node.js compila el código, inicializa Express y levanta el servicio en segundo plano. La terminal se queda fija o bloqueada temporalmente porque mantiene el proceso en escucha activa dentro de la memoria RAM del equipo.
+
+¿Qué mensaje aparece en la terminal?
+En la pantalla de la consola aparece el mensaje limpio de confirmación:
+"Servidor ejecutándose en puerto 3000"
+
+¿Qué sucede cuando visitas la ruta /estado?
+Cuando ingreso desde mi navegador web a la dirección local correspondiente, el servidor intercepta la petición HTTP de tipo GET, lee el endpoint especificado y responde de forma inmediata enviando un objeto de datos estructurado en formato JSON.
+
+Ejemplo de respuesta esperada de /estado:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
