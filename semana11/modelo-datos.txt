@@ -1,0 +1,25 @@
+MODELO DE DATOS SIMPLIFICADO
+
+Entidad: Causa
+
+Campos principales:
+- id: Identificador único de la causa (clave primaria).
+- titulo: Nombre corto y descriptivo de la iniciativa ciudadana.
+- descripcion: Detalle del problema o propuesta de mejora comunitaria.
+- fecha_creacion: Registro cronológico de cuándo se publicó en el sistema.
+- estado: Estado de la iniciativa (ej. "Activa", "En revisión", "Finalizada").
+
+Propósito:
+Guardar y estructurar las causas y proyectos de veeduría comunitaria que serán publicados de manera abierta y transparente en la plataforma para el conocimiento público.
+
+
+Entidad: Apoyo
+
+Campos principales:
+- id: Identificador único del registro de respaldo.
+- causa_id: Enlace o referencia directa con el id de la Causa (clave foránea).
+- usuario_anonimizado: Hash o pseudónimo asignado al usuario para proteger su identidad.
+- fecha_voto: Día y hora exacta en la que se generó la acción de apoyo.
+
+Propósito:
+Registrar de forma ordenada y auditable los apoyos y respaldos digitales que recibe cada iniciativa, permitiendo llevar una trazabilidad real de la participación ciudadana sin comprometer datos confidenciales.

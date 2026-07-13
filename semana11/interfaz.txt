@@ -1,0 +1,9 @@
+DESCRIPCIÓN DE LA INTERFAZ DE USUARIO (Frontend Responsable)
+
+1. Formulario para crear una causa: Se ubicará en una sección limpia de la pantalla. Contará con campos de texto interactivos para que los líderes autorizados ingresen el título y la descripción detallada del proyecto comunitario, junto con un botón llamativo para "Publicar iniciativa".
+
+2. Vista de causas disponibles: Una cartelera digital o rejilla principal que listará de manera pública y organizada todas las causas activas en orden cronológico, permitiendo que cualquier ciudadano las explore y se informe sobre los procesos barriales.
+
+3. Botón para apoyar una causa y Contador de apoyos: Cada elemento de la lista de causas contará con un botón interactivo para "Brindar mi Apoyo", acompañado de un contador numérico visible. Al hacer clic, el contador se actualizará de inmediato, visibilizando la movilización colectiva sobre ese proyecto en tiempo real.
+
+Toda la interfaz mantendrá un enfoque accesible, simple y libre de visualización de metadatos privados o confidenciales de los firmantes.
