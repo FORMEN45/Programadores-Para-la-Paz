@@ -1,0 +1,11 @@
+DISEÑO DE AUTOMATIZACIÓN (Flujo n8n -> Telegram)
+
+¿Qué evento activa el flujo?
+El evento que activa el flujo (Webhook / Trigger) ocurre cuando un ciudadano envía exitosamente el formulario web de reporte y este queda guardado en la base de datos o archivo JSON del servidor.
+
+¿Qué mensaje se enviaría a Telegram?
+Se enviará una alerta resumida e informativa al canal de coordinación comunitaria:
+"📢 ¡Atención equipo! Se ha registrado un nuevo reporte en el sistema de veeduría. Por favor, ingresen a la plataforma de administración para verificar y asignar la revisión del caso."
+
+¿Qué información NO debería enviarse por seguridad?
+Por estrictas políticas de privacidad y seguridad digital, no se debe enviar ningún dato sensible o identificable en el cuerpo del mensaje de Telegram. Específicamente quedan excluidos: nombres completos de los denunciantes, números de cédula, números de teléfono privados, direcciones exactas de hogares, correos electrónicos o contraseñas de acceso. Telegram se usa únicamente para notificar el evento abstracto, protegiendo la identidad de la comunidad.

@@ -1,0 +1,14 @@
+¿Qué 2 tareas del backlog harías primero?
+1. Historia de usuario 1: El registro de incidencias en el formulario web por parte de los ciudadanos.
+2. Historia de usuario 3: La consulta de la lista de reportes registrados por los miembros de la comunidad.
+
+¿Por qué son las más importantes?
+Son las más importantes porque constituyen el núcleo o Producto Mínimo Viable (MVP) del sistema. Sin la capacidad de guardar la información de las incidencias no existiría base de datos que administrar, y sin la consulta visual los ciudadanos no tendrían acceso a la información. La alerta de Telegram es una automatización complementaria muy útil, pero secundaria frente al almacenamiento y visualización base de los datos de veeduría.
+
+¿Qué significa para ti que una tarea esté "terminada"? (Definición de Hecho / Definition of Done)
+Significa que la funcionalidad cumple con todos los requisitos establecidos, no genera bloqueos en el sistema y es totalmente transparente y auditable para el equipo de desarrollo. 
+
+Mis 3 criterios de terminado:
+1. Funciona: El código corre perfectamente en el entorno local (Node.js/Express) y responde con las rutas o respuestas esperadas.
+2. Fue probada: Se validó que no se caiga ante datos vacíos o rutas erróneas.
+3. Quedó registrada en Git: El código limpio se subió mediante un commit al repositorio de GitHub para garantizar la trazabilidad.

@@ -1,0 +1,13 @@
+HISTORIAS DE USUARIO EN EL BACKLOG (Ordenadas de mayor a menor prioridad)
+
+[Alta Prioridad - Crítica]
+1. Como ciudadano quiero registrar una incidencia ambiental o de infraestructura en un formulario web para dejar evidencia clara del caso con su descripción.
+
+[Media Prioridad - Funcional]
+2. Como coordinador del proyecto quiero recibir una alerta automatizada en Telegram cada vez que se cree un nuevo reporte para revisarlo rápidamente.
+
+[Media Prioridad - Seguimiento]
+3. Como miembro de la comunidad quiero consultar la lista pública de reportes registrados para hacer veeduría y seguimiento del estado del barrio.
+
+[Baja Prioridad - Estética]
+4. Como usuario de la plataforma quiero filtrar las incidencias por categoría para encontrar más rápido los reportes de mi interés.
