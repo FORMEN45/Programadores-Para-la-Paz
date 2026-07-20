@@ -1,0 +1,5 @@
+Configuración de la Automatización con n8n / Telegram
+
+- Evento que activa la automatización: El backend detecta la creación de una nueva causa o cuando una petición alcanza una meta específica de apoyos de la comunidad.
+- Mensaje que se envía: "¡Atención Comunidad! Se ha registrado una nueva causa en la plataforma. Te invitamos a ingresar para conocer los detalles, sumar tu apoyo y fortalecer el control ciudadano."
+- Información que NO debe enviarse por seguridad: Bajo la política de minimización de datos, jamás se deben transmitir documentos de identidad (cédulas), números telefónicos privados, direcciones de residencia, correos electrónicos ni comentarios sensibles o personales de los usuarios.

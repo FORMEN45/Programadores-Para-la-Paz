@@ -1,0 +1,7 @@
+Flujo del Sistema - Petición en 3 Clics
+
+1. Un líder o ciudadano accede a la plataforma y registra una nueva causa comunitaria describiendo la problemática.
+2. La aplicación recibe los datos en el backend y la causa queda guardada con un ID único en la base de datos.
+3. Los miembros de la comunidad ingresan a la interfaz pública de la causa y añaden su apoyo digital en un clic.
+4. El sistema valida la autenticación básica, actualiza de manera segura y cuenta los apoyos recibidos en tiempo real.
+5. Al alcanzar la meta o solicitarlo, el backend compila los datos y genera automáticamente un documento formal en formato PDF con la petición y el listado de respaldos listo para radicar.

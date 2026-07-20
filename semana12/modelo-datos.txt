@@ -1,0 +1,17 @@
+Modelo de Datos Simple - Petición en 3 Clics
+
+Entidad: Causa
+- id (Clave primaria única para identificar la causa)
+- titulo (Nombre representativo de la iniciativa comunitaria)
+- descripcion (Detalle del problema y la solicitud de los ciudadanos)
+- fecha (Día y hora de creación de la petición)
+
+Entidad: Apoyo
+- id (Clave primaria del registro de apoyo)
+- causa_id (Clave foránea que vincula de manera relacional el voto con una Causa específica)
+- nombre (Identificador o alias del ciudadano que apoya)
+- fecha (Momento exacto en el que se registró el respaldo)
+
+Explicación:
+- La entidad Causa sirve para almacenar y estructurar toda la información base de la reclamación o iniciativa pública.
+- La entidad Apoyo sirve para llevar la trazabilidad y la contabilidad de los ciudadanos que respaldan cada causa, permitiendo relacionar múltiples votos a una sola solicitud sin duplicar datos.
